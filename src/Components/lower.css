@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+}
+.accessories-link:hover{
+    color:  rgb(143,205,203);
+}
+.cloth-link:hover{
+    color:  rgb(143,205,203);
+}
+.home-decor:hover{
+    color:  rgb(143,205,203);
+}
+.collect-menu:hover{
+    color:  rgb(143,205,203);
+}
+.list li:hover{
+    cursor: pointer;
+    color:  rgb(143,205,203);
+}
+.icons{
+    display: flex;
+    gap: 12px;
+    justify-content: end;
+    margin-top: -50px !important;
+    margin-left: -10px;
+}
+ div .icons :hover{
+    cursor: pointer;
+}

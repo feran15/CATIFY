@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.border-line{
+    border-bottom: 1px solid rgb(213,213,213);
+    width: 42%;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.best{
+    margin-top: -12px;
+}
+.border-right{
+    border-bottom: 1px solid rgb(213,213,213);
+    width: 42%;
+}
+.button-aviator{
+    display: flex;
+    margin-left: 1100px !important;
+}
+.btn-rounded{
+    border: 1px solid black !important;
+    margin-left: 20px !important;
+    padding: 5px 30px;
+    background-color: none !important;
+}
+div .img-carrier{
+    cursor: pointer;
+}
+.number{
+    text-decoration:line-through;
+    opacity: 0.5 ;
+}
+.colored-number{
+    color: rgb(143,205,203);
+}
+.star{
+    color: rgb(255,204,0);
+}
+.first-number{
+    opacity: 0.6;
+}
+.design{
+    height: 10%;
+}
+.silver-spiral{
+    width: 320px;
+}
+.spiral-bag{
+    width: 320px;
+}
+.image-hover{
+    width: 320px;
+}
+.product-image{
+    width: 320px;
+}
+@media screen and (max-width: 684px) {
+    .best{
+        text-align: center !important;
+    }
+    .border-line{
+        width: 38% !important;
+    }
+    .img-rounded{
+        width: 250% !important;
+    }
+    .img-rounded2{
+        margin-top: 500px;
+        margin-left: -650px;
+    }
+    .img-rounded3{
+        margin-top: 500px;
+        /* margin-left: -450px; */
+    }
+    .button{
+        margin-top: 50px;
+        margin-left: -650px !important;
+    }
+}
+@media screen and (max-width:614px) {
+    .silver-spiral{
+         width: 100% !important; 
+    }
+    .spiral-bag{
+        width: 100% !important; 
+    }
+    /*  */
+    .product-image{
+        width: 90% !important;  
+    }
+}

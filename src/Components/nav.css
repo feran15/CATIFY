@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav{
+    justify-content: space-between;
+    background-color: rgb(110,115,161);
+    
+}
+.form{
+    margin-left: -20px;
+}
+.form p:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 1344px ) {
+    .Nav{
+        display: none !important; 
+    }
+}

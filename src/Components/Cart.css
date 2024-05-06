@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border-line{
+    border-bottom: 1px solid rgb(213,213,213);
+    width: 42%;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+.border-right{
+    border-bottom: 1px solid rgb(213,213,213);
+    width: 42%;
+    margin-top: -16px;
+     margin-left:  770px;
+}
+.Bag-cat{
+    width: 250px;
+}
+@media screen and (max-width:684px) {
+    .cool-cat{
+        margin-top: 390px;
+        margin-left: -500px;
+    }
+    .cat-handbag{
+        margin-top: 390px;
+    }
+    .whiskers{
+        margin-top: 750px;
+        margin-left: -500px;
+    }
+    .btn-carrier{
+        margin-top: -230px;
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width:'611px') {
+    .Bag-cat{
+        width: 100% !important;
+    }
+}

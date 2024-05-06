@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.collection-body{
+    margin-top: 150px !important;
+}
+@media screen and (max-width:684px) {
+    .Gold{
+         margin-top: 700px; 
+         /* margin-left: -500px;     */
+    }
+}
