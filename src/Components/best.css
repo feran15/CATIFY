@@ -60,6 +60,7 @@ div .img-carrier{
 .product-image{
     width: 320px;
 }
+// MEDIA QUERY
 @media screen and (max-width: 684px) {
     .best{
         text-align: center !important;
